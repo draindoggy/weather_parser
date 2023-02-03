@@ -2,7 +2,7 @@ from telebot import types
 import telebot
 import weather_parser
 
-bot = telebot.TeleBot('5580459541:AAF5UV7_0yfSIId5B5lXvn9jxinWikr1Pj8')
+bot = telebot.TeleBot('токен')
 
 @bot.message_handler(commands=['start'])
 def start(message):
